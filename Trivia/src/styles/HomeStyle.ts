@@ -1,0 +1,63 @@
+import {StyleSheet} from 'react-native';
+export const homeStyles = StyleSheet.create({
+  btn: {
+    backgroundColor: '#FF6065',
+    borderRadius: 10,
+    padding: 15,
+    alignItems: 'center',
+    marginTop: '15%',
+    textDecorationColor: '#fff',
+  },
+  btnTxt: {
+    color: '#fff',
+    fontSize: 15,
+    fontWeight: '700',
+    fontFamily: 'Quicksand-Bold',
+  },
+  position: {flexDirection: 'row', alignItems: 'center'},
+  parent: {backgroundColor: '#4751C0', flex: 1},
+  placeholder: {
+    color: '#fff',
+    marginLeft: 10,
+  },
+  amountInp: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: '3%',
+  },
+  heading: {
+    textAlign: 'center',
+    color: 'white',
+    fontSize: 26,
+    fontWeight: '700',
+    marginTop: '25%',
+  },
+  inp__txt: {color: '#fff', marginLeft: 10},
+  form: {
+    width: '85%',
+    justifyContent: 'center',
+    marginTop: '10%',
+    fontFamily: 'Quicksand-Medium',
+  },
+  picker_text: {color: '#fff', fontFamily: 'Quicksand-Medium'},
+  picker_border: {
+    width: '100%',
+    borderWidth: 2,
+    borderRadius: 10,
+    borderColor: '#fff',
+    borderStyle: 'solid',
+  },
+  inp_border: {
+    paddingLeft: 20,
+    fontWeight: '500',
+    color: '#fff',
+    width: '100%',
+    borderWidth: 2,
+    borderRadius: 10,
+    borderColor: '#fff',
+    borderStyle: 'solid',
+    fontFamily: 'Quicksand-Medium',
+  },
+  icon: {marginVertical: '3%'},
+  imageLogo: {width: '80%', marginTop: '3%'},
+});
