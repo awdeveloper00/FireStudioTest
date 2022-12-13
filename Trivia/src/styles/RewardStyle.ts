@@ -1,0 +1,65 @@
+import {StyleSheet} from 'react-native';
+
+export const rewardStyle = StyleSheet.create({
+  rewardCard: {
+    height: 80,
+    margin: 10,
+    borderRadius: 10,
+    flexDirection: 'row',
+    width: '85%',
+    alignItems: 'center',
+    alignSelf: 'center',
+    justifyContent: 'space-around',
+    padding: 10,
+  },
+  btnTxt: {
+    color: '#fff',
+    fontWeight: '700',
+    fontSize: 15,
+    fontFamily: 'Quicksand-Bold',
+  },
+  crossAlign: {alignItems: 'flex-end', margin: '5%'},
+  parent: {flex: 1, backgroundColor: '#4751C0'},
+  textTotal: {
+    fontSize: 13,
+    color: '#fff',
+  },
+  scoreHead: {
+    fontSize: 20,
+    color: '#fff',
+    marginHorizontal: 15,
+    fontFamily: 'Quicksand-SemiBold',
+  },
+  textScore: {fontSize: 18, color: '#FF8D8D'},
+  userContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  scoreStar: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginVertical: 10,
+  },
+  rewardQues: {
+    color: '#464FAC',
+    fontSize: 12,
+    fontWeight: '500',
+    textAlign: 'left',
+    width: '80%',
+    fontFamily: 'Quicksand-SemiBold',
+  },
+  btn: {
+    width: '85%',
+    borderRadius: 14,
+    backgroundColor: 'red',
+    borderColor: '#4953BE',
+    borderWidth: 2,
+    height: 64,
+    color: 'white',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginVertical: '2%',
+    alignSelf: 'center',
+  },
+});
