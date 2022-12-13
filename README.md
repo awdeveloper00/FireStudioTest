@@ -15,15 +15,15 @@
 -React Native does not support Linear Gradient and for that React-Native-Linear-Gradient was used.
 -React Navigation for Navigation through app.
 
-###Figma Design Assumptions:
+### Figma Design Assumptions:
 
--Your score has font-family Comfortaa. I left it as QuickSand which was main.
--The Welcome/HomeScreen Button has incorrect Text Should have been submit/true. Replaced it with Submit.
--The background Images i encorporated as one because React Native does not support multiple Background Images and int the design it were in different vectors.
+- Your score has font-family Comfortaa. I left it as QuickSand which was main.
+- The Welcome/HomeScreen Button has incorrect Text Should have been submit/true. Replaced it with Submit.
+- The background Images i encorporated as one because React Native does not support multiple Background Images and int the design it were in different vectors.
 
 ### First Screen - Welcome Screen:
 
-- Set the level of Difficulty(Easy,Medium,Hard)
+- Set the level of Difficulty (Easy,Medium,Hard)
 - Enter the amount of questions you want to answer.
 - Press Button "Submit" to start the game
   > You can not start the game without entering values..
