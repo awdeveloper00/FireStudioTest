@@ -1,19 +1,19 @@
 ### Setup and Runnning
 
--Initiate a React-Native Setup
--Clone Project
--Npm Install to install packages.
--Android:run command npx react-native run-android.(It will automatically build and download gradle file).
--IOS:
--go to the IOS Folder
--Run Pod Install Command
--run npx react-native run-ios from the root project folder.
+- Initiate a React-Native Setup
+- Clone Project
+- Npm Install to install packages.
+- Android:run command npx react-native run-android.(It will automatically build and download gradle file).
+- IOS:
+- go to the IOS Folder
+- Run Pod Install Command
+- run npx react-native run-ios from the root project folder.
 
 ### Libraries
 
--Svg files were converted to .tsx files as React Native does not support SVG's And requires 3rd Party Library React-Native-Svg.
--React Native does not support Linear Gradient and for that React-Native-Linear-Gradient was used.
--React Navigation for Navigation through app.
+- Svg files were converted to .tsx files as React Native does not support SVG's And requires 3rd Party Library React-Native-Svg.
+- React Native does not support Linear Gradient and for that React-Native-Linear-Gradient was used.
+- React Navigation for Navigation through app.
 
 ### Figma Design Assumptions:
 
